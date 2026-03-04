@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f8f6;
+}
+
+/* Navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #11d411;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #11d411;
+}
+
+/* Buttons */
+
+.btn {
+    background: #11d411;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    color: #555;
+}
+
+.hero-img img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+/* Cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 60px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Contact form */
+
+.form {
+    width: 50%;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #11d411;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
